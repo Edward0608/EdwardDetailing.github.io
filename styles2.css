@@ -46,12 +46,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #00ff00; /* Green color on hover */
 }
 
 .cta {
-    background-color: #ffcc00;
-    color: #1c1c1c;
+    background-color: #00ff00; /* Green color */
+    color: #1c1c1c; /* Black text */
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
@@ -59,11 +59,11 @@ nav ul li a:hover {
 }
 
 .cta:hover {
-    background-color: #e6b800;
+    background-color: #00cc00; /* Darker green on hover */
 }
 
 .hero {
-    background: url('https://scontent.fcra1-1.fna.fbcdn.net/v/t39.30808-6/312946406_552558540208765_3379239146128124913_n.jpg?_nc_cat=102&_nc_cb=99be929b-713f6db7&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QPdHrHB6rf0Q7kNvgE-eJV3&_nc_ht=scontent.fcra1-1.fna&cb_e2o_trans=q&oh=00_AYAuUMMa5HgN7vHIVsnysmcBHw9JEnf3XrpUYHF3R6wnOA&oe=664E4F4C') no-repeat center center/cover;
+    background: url('https://scontent.fcra1-1.fna.fbcdn.net/v/t39.30808-6/364142311_104134052774762_2595454473111758263_n.jpg?_nc_cat=101&_nc_cb=99be929b-713f6db7&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8FxL_CSBmwUQ7kNvgFtTP_j&_nc_ht=scontent.fcra1-1.fna&cb_e2o_trans=q&oh=00_AYDD3_d8mG56lUe2qJCnR3_0VBFU7Z0GSOHklOluQWu-xA&oe=664E738F') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@ nav ul li a:hover {
 .about-us h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .about-content {
@@ -172,7 +172,7 @@ nav ul li a:hover {
 .services h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .service-cards {
@@ -204,7 +204,7 @@ nav ul li a:hover {
 .service-card h3 {
     font-size: 24px;
     margin: 10px 0;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .service-card p {
@@ -221,7 +221,7 @@ nav ul li a:hover {
 .gallery h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .gallery-grid {
@@ -256,7 +256,7 @@ nav ul li a:hover {
 .testimonials h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .testimonials-grid {
@@ -293,7 +293,7 @@ blockquote {
 footer {
     margin-top: 10px;
     font-size: 16px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 @media (max-width: 768px) {
@@ -376,7 +376,7 @@ footer {
 .pricing h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .pricing-cards {
@@ -401,7 +401,7 @@ footer {
 
 .pricing-card .price {
     font-size: 36px;
-    color: #ffcc00;
+    color: #00cc00;
     margin-bottom: 20px;
 }
 
@@ -416,7 +416,7 @@ footer {
 }
 
 .pricing-card .btn {
-    background-color: #ffcc00;
+    background-color: #00cc00;
     color: #1c1c1c;
     text-decoration: none;
     padding: 10px 20px;
@@ -426,7 +426,7 @@ footer {
 }
 
 .pricing-card .btn:hover {
-    background-color: #e6b800;
+    background-color: #00cc00;
 }
 
 @media (max-width: 768px) {
@@ -518,7 +518,7 @@ footer {
 .contact h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffcc00;
+    color: #00cc00;
 }
 
 .contact-info {
@@ -577,7 +577,7 @@ footer {
 }
 
 .contact-form button {
-    background-color: #ffcc00;
+    background-color: #00cc00;
     color: #1c1c1c;
     padding: 10px 20px;
     border: none;
@@ -587,7 +587,7 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #e6b800;
+    background-color: #00cc00;
 }
 
 @media (max-width: 768px) {

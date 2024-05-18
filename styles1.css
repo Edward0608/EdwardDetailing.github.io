@@ -1,0 +1,83 @@
+/* Existing CSS */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+}
+
+.left {
+    left: 0;
+    background-image: url('https://imgs.search.brave.com/S-qnKZM8bzQd7wIOuu3zg2XamgJStC8YzUJ9v7weQHs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by93YXNoaW5nLWNh/ci13YXNoaW5nLWJs/YWNrLWNhci1jYXIt/d2FzaC1jbGVhbi1j/YXJfMzI1ODQ1LTg3/Mi5qcGc_c2l6ZT02/MjYmZXh0PWpwZw'); /* Replace with your image */
+    color: white;
+}
+
+.right {
+    right: 0;
+    background-image: url('https://scontent.fcra1-1.fna.fbcdn.net/v/t39.30808-6/361898839_104134146108086_5425296353329565764_n.jpg?_nc_cat=109&_nc_cb=99be929b-713f6db7&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pvMlIYq5rzoQ7kNvgG9mmHI&_nc_ht=scontent.fcra1-1.fna&cb_e2o_trans=q&oh=00_AYBYBXhy2EkiJbS1Hyc2WK5F6GfByLD4rNvvmrQG1qlrLQ&oe=664E55C3'); /* Replace with your image */
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta:hover {
+    background-color: #e68900;
+    transform: scale(1.1);
+}
+
+.cta:active {
+    animation: clickEffect;
+}
+
+.divider {
+    position: fixed;
+    top: 0;
+    left: 50%; /* Adjust to center the line */
+    transform: translateX(-50%);
+    width: 5px; /* Adjust thickness of the line */
+    height: 100%;
+    background-color: #ddd; /* Color of the line */
+}
